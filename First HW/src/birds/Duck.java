@@ -1,9 +1,8 @@
-package birds; // Обновили пакет
+package birds;
 
 import animals.Animal;
-import tools.iFlying; // Исправили путь к интерфейсу
 
-public class Duck extends Animal implements iFlying {
+public class Duck extends Animal implements Flying {
     public Duck(String name, int age, int weight, String color) {
         super(name, age, weight, color);
     }

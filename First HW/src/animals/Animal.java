@@ -15,12 +15,12 @@ public abstract class Animal {
         this.name = name;
         this.age = age;
         this.weight = weight;
-        this.color = color; // это конструктор, так правильно, но нужно сделать сеттеры по дз. какая разница?
+        this.color = color; // это конструктор он гарантирует что данные будут записаны
     }
 
 
 
-    public String getName(){
+    public String getName(){ //удалить эти методы, так как они не используются
         return name;
     }
 

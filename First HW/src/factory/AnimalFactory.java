@@ -1,9 +1,10 @@
-package data;
+package factory;
 
 import animals.Animal;
 import animals.Cat;
 import animals.Dog;
 import birds.Duck;
+import data.AnimalTypeData;
 
 public class AnimalFactory {
     public static Animal create(String name, int age, int weight, String color, AnimalTypeData animalTypeData) {
